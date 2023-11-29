@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Aqua Adventures</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="script.js"></script>
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<nav>
+  <div class="navbar">
+    <div class="logo"><a href="#"><img src="aqua.png" alt="Aqua Logo"></a></div>
+    <div class="nav-links">
+      <ul class="links">
+        <li><a href="index.html">HOME</a></li>
+        <li>
+          <a href="services.php">SERVICES</a>
+          <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+          <ul class="htmlCss-sub-menu sub-menu">
+            <li><a href="services.php?category=all">JETSKIS</a></li>
+            <li><a href="services.php?category=1">BOATS</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.php"><span>CONTACT US!</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <img src="jetski.jpg" alt="jetski Image">
+  <h1>AQUA ADVENTURES WATERSPORTS RENTAL</h1>
+  <p>Discover a diverse fleet of boats and jetskis designed to suit every taste and level of experience.</p>
+  <p>Our selection includes everything from sleek speedsters for adrenaline junkies to spacious pontoons for family outings.</p>
+   <div class="button-container">
+  <a class="button" href="services.php">BOOK NOW!</a>
+</div>
+  <h2>ABOUT US</h2>
+  <p>At Aqua Adventures, we invite you to embark on unforgettable aquatic journeys. Whether you crave the excitement of riding a jetski, the serenity of sailing, or the leisure of boating, we've got your watercraft dreams covered.</p>
+  <p>Your safety is our priority. We provide all necessary safety equipment and offer briefings to ensure you're confident and prepared before setting out on the water.</p>
+  <p>Get ready to make waves with us. Start your aquatic adventure today!</p>
+<div class="contact-info">
+    <h3>CONTACT US!</h3>
+    <p>AQUA ADVENTURES</p>
+    <p>WATERSPORT RENTAL</p>
+    <p><a href="https://maps.google.com/maps?q=5575%20NORTH%20ATLANTIC%20AVE,%20COCOA%20BEACH%203291" target="_blank"><i class="fas fa-map-marker-alt"></i> 5575 NORTH ATLANTIC AVE, COCOA BEACH 32931</a></p>
+    <p><i class="fas fa-phone"></i> <a href="tel:350-456-2628">831-456-2628</a></p>
+<p><i class="fas fa-envelope"></i> <a href="mailto:support@aquarentals.com">support@aquarentals.com</a></p>
+
+  </div>
+</div>
+
+<!-- Footer PHP -->
+<?php
+include 'footer.php';
+?>
+
+</body>
+</html>
