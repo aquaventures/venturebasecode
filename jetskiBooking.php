@@ -80,7 +80,7 @@
         a {
     display: inline-block;
     padding: 10px 20px; /* Adjust the padding to make it a square button */
-    background-color: #4CAF50; /* Set the background color */
+    background-color: #ffffff; /* Set the background color */
     color: #fff; /* Set the text color */
     text-decoration: none;
     border-radius: 5px; /* Add rounded corners */
