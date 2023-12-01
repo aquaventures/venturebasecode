@@ -70,11 +70,14 @@
       border-radius: 4px;
       cursor: pointer;
     }
+     h2 {
+      padding-top: 40px;
+    }
   </style>
 </head>
 <body>
 
-  <h2>Reservation Form</h2>
+  <h2>BOOK NOW!</h2>
 
   <form action="process_reservation.php" method="post">
     <label for="name">Name:</label>
@@ -107,7 +110,7 @@
       <!-- Add more time options as needed -->
     </select>
 
-    <label for="vehicle">Select Vehicle:</label>
+    <label for="vehicle">Select Rental Type:</label>
     <select id="vehicle" name="vehicle" required>
       <option value="boat">Boat</option>
       <option value="jetski">Jet Ski</option>
